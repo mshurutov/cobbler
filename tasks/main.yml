@@ -1,2 +1,8 @@
 ---
+
 # tasks file for cobbler
+- name: install cobbler packages
+  ansible.builtin.package:
+    name: "{{ cobbler_packages }}"
+  tags: cobbler_install
+
