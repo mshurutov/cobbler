@@ -1,5 +1,4 @@
 ---
-
 # defaults file for cobbler
-cobbler_packages: 
+cobbler_packages:
 #  - "app-admin/cobbler" # gentoo package

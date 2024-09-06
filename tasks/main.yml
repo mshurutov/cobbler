@@ -14,4 +14,3 @@
   ansible.builtin.package:
     name: "{{ cobbler_packages }}"
   tags: cobbler_install
-
